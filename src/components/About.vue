@@ -16,9 +16,9 @@ import { RouterLink, RouterView } from "vue-router";
         </div>
 
         <p class="text-xl mt-5 lg:mt-20">
-          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">My name.</span>
+          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Aku Isaac.</span>
         </p>
-        <p class="text-x lg:text-xl">A self-taught Front-end Web Developer👨‍💻 based in Nigeria.
+        <p class="text-x lg:text-xl">A self-taught Personality👨‍💻 based in Nigeria.
           <br/>
           <br/>
           I'm highly passionate about designing and developing clean and user-centered interfaces.
@@ -26,17 +26,17 @@ import { RouterLink, RouterView } from "vue-router";
           Constantly learning about and improving on web development skills. Building projects to apply theory of new technologies, best practices, or methods.
           <br/>
           <br/>
-          Looking forward to learning and collaborating with the best and brightest in this field!
+          Looking forward to learning and collaborating with the best and brightest  team in cyphercrescent Limited
         </p>
         <br/>
         <div class="lg:flex gap-32">
           <p>Full Name: Aku Isaac Chibuzor
             <br/>
             <br/>
-            DOB: 07-September-1999
+            DOB: 07-September-2023
             <br/>
             <br/>
-            Degree: Computer Science And Engineering
+            Degree: Sta
           </p>
           <br/>
           <p>
