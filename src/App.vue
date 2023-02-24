@@ -1,4 +1,5 @@
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent, ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home.vue";
@@ -7,8 +8,41 @@ import Projects from "./components/Projects.vue";
 import Experience from "./components/Experience.vue";
 import Contact from "./components/Contact.vue";
 import Social from "./components/Social.vue";
-</script>
+export default defineComponent({
+  components: {
+    Navbar,
+    Home,
+    About,
+    Projects,
+    Experience,
+    Contact,
+    Social,
+  },
 
+  setup() {
+    const mounted = () => {
+      fetch("http://localhost:1337/api/databases", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => console.log(data.data))
+        .catch((err) => console.log(err));
+      
+    };
+
+    return {
+      mounted,
+    };
+  },
+
+  mounted() {
+    this.mounted();
+  },
+});
+</script>
 <template>
   <header>
     <div class="w-full">
