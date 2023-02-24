@@ -18,29 +18,6 @@ export default defineComponent({
     Contact,
     Social,
   },
-
-  setup() {
-    const mounted = () => {
-      fetch("http://localhost:1337/api/databases", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => console.log(data.data))
-        .catch((err) => console.log(err));
-      
-    };
-
-    return {
-      mounted,
-    };
-  },
-
-  mounted() {
-    this.mounted();
-  },
 });
 </script>
 <template>

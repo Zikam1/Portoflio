@@ -34,7 +34,7 @@
 
           <div>
             <img
-              src='../assets/webdev.png'
+              src='../assets/DSC_9800.jpg'
               alt="my profile"
               class="h-72 md:h-96"
             />
