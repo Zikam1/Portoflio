@@ -21,7 +21,7 @@ export default defineComponent({
     };
   },
   mounted() {
-    fetch("http://localhost:1337/api/databases", {
+    fetch("http://localhost:1337/api/databases?populate[src]=*", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -60,7 +60,7 @@ export default defineComponent({
             <div class="shadow-xl rounded-b-md duration-300 hover:scale-150">
               <div class="">
               <img
-                :src=item.attributes.src
+                :src="`http://localhost:1337/${item.data?.attributes.src.data.attributes.url}`"
                 alt=""
                 class="rounded-t-md "
               />
