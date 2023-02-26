@@ -8,6 +8,8 @@ import Projects from "./components/Projects.vue";
 import Experience from "./components/Experience.vue";
 import Contact from "./components/Contact.vue";
 import Social from "./components/Social.vue";
+import Blog from "./components/Blog.vue"
+
 export default defineComponent({
   components: {
     Navbar,
@@ -17,6 +19,7 @@ export default defineComponent({
     Experience,
     Contact,
     Social,
+    Blog,
   },
 });
 </script>
@@ -30,6 +33,7 @@ export default defineComponent({
       <Experience />
       <Contact />
       <Social />
+      <Blog />
     </div>
   </header>
 

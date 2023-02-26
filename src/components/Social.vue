@@ -16,9 +16,10 @@ export default defineComponent({
       links: [
         {
           id: 1,
-          child: "LinkedIn ",
-            icon:'fa fa-linkedin',
-          href: "https://www.linkedin.com/in/rahmath-irshad-74781988/",
+          child: "Linkedln",
+          icon:'fas fa-linkedin',
+
+          href: "https://www.linkedin.com/in/aku-isaac-57a711177/?trk=public_profile-settings_edit-profile-content&originalSubdomain=ng",
           style: "rounded-tr-md",
         },
         {
@@ -26,7 +27,7 @@ export default defineComponent({
           child: "Github",
           icon:'fa fa-github',
 
-          href: "https://www.linkedin.com/in/rahmath-irshad-74781988/",
+          href: "https://github.com/",
           style: "rounded-tr-md",
         },
         {
@@ -34,7 +35,7 @@ export default defineComponent({
           child: "Mail",
           icon:'far fa-envelope',
 
-          href: "https://www.linkedin.com/in/rahmath-irshad-74781988/",
+          href: "https://mail.google.com/mail/u/0/#inbox",
           style: "rounded-br-md",
         },
         {
@@ -42,7 +43,7 @@ export default defineComponent({
           child: "Resume",
           icon:'fas fa-user',
 
-          href: "https://www.linkedin.com/in/rahmath-irshad-74781988/",
+          href: "https://www.linkedin.com/in/aku-isaac-57a711177/?trk=public_profile-settings_edit-profile-content&originalSubdomain=ng",
           style: "rounded-tr-md",
         },
       ] as Item[],
