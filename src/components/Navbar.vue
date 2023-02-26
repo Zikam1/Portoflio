@@ -34,6 +34,11 @@
           >
             <a href='#contact'>Contact</a >
           </li>
+          <li
+            class="px-4 cursor-pointer capitalize font-semibold text-slate-300 hover:scale-110 hover:text-sky-400 duration-200"
+          >
+            <a href='#contact'>Blog</a >
+          </li>
         </ul>
         <div class="cursor-pointer z-50 text-gray-500 md:hidden" @click="togglenav()">
       
@@ -60,6 +65,9 @@
           </li>
           <li @click="togglenav()" class="px-4 cursor-pointer capitalize py-6 text-4xl">
             <a href='#contact'>Contact</a >
+          </li>
+          <li @click="togglenav()" class="px-4 cursor-pointer capitalize py-6 text-4xl">
+            <a href='#blog'>Blog</a >
           </li>
         </ul>
       </nav>

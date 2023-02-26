@@ -1,47 +1,60 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from "vue-router";
 
-
-<script setup lang="ts"></script>
+</script>
 
 <template>
-    <div
-        id="home"
-        class="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-      >
-        <div class="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
-          <div class="flex flex-col justify-center h-full">
-            <p class="text-gray-500 text-2xl py-4 max-w-md">Hi, I'm</p>
-            <h2 class="text-4xl sm:text-7xl font-bold text-white">
-              Aku  Chibuzor
-            </h2>
-            <h2 class="text-4xl sm:text-7xl  text-white">
-                Isaac
-            </h2>
-            <p class="text-gray-500 text-lg py-4 max-w-md md:text-2xl">FRONT-END WEB DEVELOPER 👨‍💻</p>
-
-            <div class="flex">
-                <a href='#project'
-
-               
-                class="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
-              >
-                Projects
-               </a>
-            
-              
-            </div>
-          </div>
-
-          <div>
-            <img
-              src='../assets/DSC_9800.jpg'
-              alt="my profile"
-              class="h-72 md:h-96"
-            />
-          </div>
+ <div
+ id="blog"
+      class="w-full bg-gradient-to-b from-gray-800 to-black text-white lg:h-screen"
+    >
+      <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div class="lg:pb-8">
+          <p class="text-4xl font-bold inline border-b-4 border-gray-500">
+            Blog
+          </p>
         </div>
 
+        <p class="text-xl mt-5 lg:mt-20">
+          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Aku Isaac.</span>
+        </p>
+        <p class="text-x lg:text-xl">A self-taught Personality👨‍💻 based in Nigeria.
+          <br/>
+          <br/>
+          I'm highly passionate about designing and developing clean and user-centered interfaces.
+          <br/>
+          Constantly learning about and improving on web development skills. Building projects to apply theory of new technologies, best practices, or methods.
+          <br/>
+          <br/>
+          Looking forward to learning and collaborating with the best and brightest  team in cyphercrescent Limited
+        </p>
+        <br/>
+        <div class="lg:flex gap-32">
+          <p>Full Name: Aku Isaac Chibuzor
+            <br/>
+            <br/>
+            DOB: 07-September-2023
+            <br/>
+            <br/>
+            Degree: Sta
+          </p>
+          <br/>
+          <p>
+            Address: 20 SOlomon Abek woji Porthcourt.
+            <br/>
+            <br/>
+            Email: isaac.aku@cyphercrescent.com
+            <br/>
+            <br/>
+            Phone\whatsapp: +2348104233630
+          </p>
+          <br/>
+        </div>
+        <br/>
+        <a href='#blog' class=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Blog</a >
       </div>
+    </div>
 </template>
 
-<style></style>
+<style>
+</style>
