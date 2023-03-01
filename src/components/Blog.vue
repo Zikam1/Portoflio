@@ -11,32 +11,37 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div class="lg:pb-8">
           <p class="text-4xl font-bold inline border-b-4 border-gray-500">
-            Blog
+             News
           </p>
         </div>
 
-        <p class="text-xl mt-5 lg:mt-20">
-          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Aku Isaac.</span>
+        <p class="text-xl mt-1 lg:mt-20">
+          <span class=" font-bold"> In this blog post,</span> I would like to share my experience learning three popular front-end technologies: <span class=" font-bold">Vue.js, Tailwind CSS, and TypeScript.</span>
         </p>
-        <p class="text-x lg:text-xl">A self-taught Personality👨‍💻 based in Nigeria.
+        <p class="text-x lg:text-xl">These ideas are great for  blogs,👨‍💻 expects based in Nigeria.
           <br/>
           <br/>
-          I'm highly passionate about designing and developing clean and user-centered interfaces.
+          First, let's start with Vue.js. Vue.js is a progressive JavaScript framework for building user interfaces. I was initially drawn to Vue.js because of its simplicity and ease of use.
           <br/>
-          Constantly learning about and improving on web development skills. Building projects to apply theory of new technologies, best practices, or methods.
+          After spending some time learning the basics, I was impressed with its reactivity system and the ability to create reusable components. 
           <br/>
           <br/>
-          Looking forward to learning and collaborating with the best and brightest  team in cyphercrescent Limited
+          Next, I learned about Tailwind CSS. Tailwind CSS is a utility-first CSS framework that provides a set of 
+          pre-defined CSS classes that you can use to style your HTML elements. 
+          <br/>
+          <br/>
+         
         </p>
+        
         <br/>
         <div class="lg:flex gap-32">
           <p>Full Name: Aku Isaac Chibuzor
             <br/>
             <br/>
-            DOB: 07-September-2023
+            DOB: 07-March-2023
             <br/>
             <br/>
-            Degree: Sta
+            Degree: Mathematics/Statistics
           </p>
           <br/>
           <p>

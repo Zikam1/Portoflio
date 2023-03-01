@@ -129,7 +129,7 @@ export default defineComponent({
               <img :src= tech.src alt="" className="w-20 mx-auto" />
               <p className="mt-4">{{tech.title}}</p>
             </div>
-          ))}
+         
         </div>
       </div>
     </div>
