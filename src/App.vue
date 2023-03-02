@@ -26,7 +26,7 @@ export default defineComponent({
 <template>
   <header>
     <div class="w-full">
-      <Navbar title="CCL" />
+      <Navbar title="Zk" />
       <Home />
       <About />
       <Projects />

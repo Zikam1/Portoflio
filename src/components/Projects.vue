@@ -44,9 +44,9 @@ export default defineComponent({
     class="bg-gradient-to-b from-black to-gray-800 w-full text-white "
   >
     <div
-      class="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full lg:p-24"
+      class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
     >
-      <div class="pb-2">
+      <div class="lg:pb-2">
         <p class="text-4xl font-bold inline border-b-4 border-gray-500">
           Projects
         </p>
