@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
       class="w-full bg-gradient-to-b from-gray-800 to-black text-white lg:h-screen"
     >
       <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div class="lg:pb-8">
+        <div class="lg:pb-2">
           <p class="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
@@ -18,7 +18,7 @@ import { RouterLink, RouterView } from "vue-router";
         <p class="text-xl mt-5 lg:mt-20">
           <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Aku Isaac.</span>
         </p>
-        <p class="text-x lg:text-xl">A self-taught Personality👨‍💻 based in Nigeria.
+        <p class="text-x lg:text-xl">Willingness to contribute my best to any organisations' can also be demonstrated through a strong work ethic, a positive attitude, and a collaborative approach to work.👨‍💻
           <br/>
           <br/>
           I'm highly passionate about designing and developing clean and user-centered interfaces.
