@@ -1,43 +1,30 @@
 <script lang="ts">
+
 import { defineComponent, ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home.vue";
-import About from "./components/About.vue";
-import Projects from "./components/Projects.vue";
-import Experience from "./components/Experience.vue";
-import Contact from "./components/Contact.vue";
-import Social from "./components/Social.vue";
-import Blog from "./components/Blog.vue"
 
+import Social from "./components/Social.vue";
 export default defineComponent({
   components: {
     Navbar,
-    Home,
-    About,
-    Projects,
-    Experience,
-    Contact,
+
     Social,
-    Blog,
   },
 });
 </script>
 <template>
-  <header>
-    <div class="w-full">
-      <Navbar title="Zk" />
-      <Home />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Social />
-      <Blog />
-    </div>
-  </header>
-
+  <div class="w-full">
+      <header>
+      <Navbar title="Cc" />
+    </header>
+<div class="pt-20">
   <RouterView />
+
+</div>
+    <Social />
+    </div>
+
 </template>
 
 <style>
