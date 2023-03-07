@@ -16,7 +16,7 @@ export default defineComponent({
 <template>
   <div class="w-full">
       <header>
-      <Navbar title="Cc" />
+      <Navbar title="BG" />
     </header>
 <div class="pt-20">
   <RouterView />

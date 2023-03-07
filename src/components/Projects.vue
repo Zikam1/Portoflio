@@ -41,7 +41,7 @@ export default defineComponent({
   <div
 
     id="project"
-    class="bg-gradient-to-b from-black to-gray-800 w-full text-white "
+    class="w-full bg-gradient-to-b from-black to-gray-800 w-full text-white lg:h-screen"
   >
     <div
       class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
