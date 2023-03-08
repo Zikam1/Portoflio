@@ -69,7 +69,7 @@
         <p class="text-xl mt-1 lg:mt-20">
           <span class=" font-semi-bold"> I</span> would like to share my experience learning three popular front-end technologies: <span class=" font-bold">Vue.js, Tailwind CSS, and TypeScript.</span>
         </p>
-        <p class="text-x lg:text-xl">These ideas are great for  blogs,👨‍💻 expect based in Nigeria.
+        <p class="text-x lg:text-xl">My experience with Vue.js has been very positive. Its component-based architecture makes it easy to  ,👨‍💻 build reusable UI elements and manage state across the application..
           <br/>
           <br/>
           First, let's start with Vue.js. Vue.js is a progressive JavaScript framework for building user interfaces. I was initially drawn to Vue.js because of its simplicity and ease of use.
