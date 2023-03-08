@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from "vue-router";
         </div>
 
         <p class="text-xl mt-5 lg:mt-20">
-          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Aku Isaac.</span>
+          <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Bruno Gibson Stephen.</span>
         </p>
         <p class="text-x lg:text-xl">Willingness to contribute my best to any organisations' can also be demonstrated through a strong work ethic, a positive attitude, and a collaborative approach to work.👨‍💻
           <br/>
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from "vue-router";
         </p>
         <br/>
         <div class="lg:flex gap-32">
-          <p>Full Name: Aku Isaac Chibuzor
+          <p>Full Name: Bruno Gibson Stephen
             <br/>
             <br/>
             DOB: 07-September-2023
@@ -44,7 +44,7 @@ import { RouterLink, RouterView } from "vue-router";
             Address: 20 SOlomon Abek woji Porthcourt.
             <br/>
             <br/>
-            Email: isaac.aku@cyphercrescent.com
+            Email: brunogibson@cyphercrescent.com
             <br/>
             <br/>
             Phone\whatsapp: +2348104233630
@@ -52,7 +52,9 @@ import { RouterLink, RouterView } from "vue-router";
           <br/>
         </div>
         <br/>
-        <a href='#contact' class=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Contact</a >
+        <router-link to="/about"
+              class="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500">About</router-link>
       </div>
     </div>
 </template>

@@ -38,9 +38,7 @@
             About
           </p>
         </div>
-
         <p class="text-xl mt-5 lg:mt-10">
-          <!-- <span class=" font-bold">Hi,</span> My name is <span class=" font-bold">Bruno Stephen.</span> -->
         </p>
         <p class="text-x lg:text-xl">My passion lies in creating clean and user-centered interfaces through designing and developing.👨‍💻
           <br/>
@@ -57,10 +55,8 @@
             <img
               src='../assets/webdev.png'
               alt="my profile"
-              class="h-80 md:h-100"
+              class="h-80 md:h-130"
             /> 
-            
-            uuuu
           </div>
         </div>
 

@@ -8,7 +8,6 @@ import Social from "./components/Social.vue";
 export default defineComponent({
   components: {
     Navbar,
-
     Social,
   },
 });
@@ -17,8 +16,8 @@ export default defineComponent({
   <div class="w-full">
       <header>
       <Navbar title="BG" />
-    </header>
-<div class="pt-20">
+     </header>
+  <div class="pt-20">
   <RouterView />
 
 </div>

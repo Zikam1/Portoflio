@@ -30,31 +30,8 @@ import { RouterLink, RouterView } from "vue-router";
           pre-defined CSS classes that you can use to style your HTML elements. 
           <br/>
           <br/>
-         
         </p>
-        
         <br/>
-        <div class="lg:flex gap-32">
-          <p>Full Name: Aku Isaac Chibuzor
-            <br/>
-            <br/>
-            DOB: 07-March-2023
-            <br/>
-            <br/>
-            Degree: Mathematics/Statistics
-          </p>
-          <br/>
-          <p>
-            Address: 20 SOlomon Abek woji Porthcourt.
-            <br/>
-            <br/>
-            Email: isaac.aku@cyphercrescent.com
-            <br/>
-            <br/>
-            Phone\whatsapp: +2348104233630
-          </p>
-          <br/>
-        </div>
         <br/>
       </div>
     </div>
