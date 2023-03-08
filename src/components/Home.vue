@@ -57,6 +57,35 @@
               alt="my profile"
               class="h-80 md:h-130"
             /> 
+            <div
+          id="blog"
+          class="w-full  lg:h-screen mt-0"
+              >
+          <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+            <router-link to="/blog"
+              class="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500">Blog</router-link>
+       
+        <p class="text-xl mt-1 lg:mt-20">
+          <span class=" font-semi-bold"> I</span> would like to share my experience learning three popular front-end technologies: <span class=" font-bold">Vue.js, Tailwind CSS, and TypeScript.</span>
+        </p>
+        <p class="text-x lg:text-xl">These ideas are great for  blogs,👨‍💻 expect based in Nigeria.
+          <br/>
+          <br/>
+          First, let's start with Vue.js. Vue.js is a progressive JavaScript framework for building user interfaces. I was initially drawn to Vue.js because of its simplicity and ease of use.
+          <br/>
+          After spending some time learning the basics, I was impressed with its reactivity system and the ability to create reusable components. 
+          <br/>
+          <br/>
+          Next, I learned about Tailwind CSS. Tailwind CSS is a utility-first CSS framework that provides a set of 
+          pre-defined CSS classes that you can use to style your HTML elements. 
+          <br/>
+          <br/>
+        </p>
+        <br/>
+        <br/>
+      </div>
+    </div>
           </div>
         </div>
 

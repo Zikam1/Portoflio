@@ -34,7 +34,7 @@ import { RouterLink, RouterView } from "vue-router";
           <p>Full Name: Bruno Gibson Stephen
             <br/>
             <br/>
-            DOB: 07-September-2023
+            State: 07-September-2023
             <br/>
             <br/>
             Degree: Sta
