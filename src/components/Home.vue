@@ -9,10 +9,10 @@
           <div class="flex flex-col justify-center h-full">
             <p class="text-gray-500 text-2xl py-4 max-w-md">Hi, I'm</p>
             <h2 class="text-4xl sm:text-7xl font-bold text-white">
-              Bruno Gibson
+              Aku Isaac
             </h2>
             <h2 class="text-4xl sm:text-7xl  text-white">
-                Stephen
+                Chibuzor
             </h2>
             <p class="text-gray-500 text-lg py-8 max-w-md md:text-2xl">I'm a software engineer specializing in building
                (and occassionally designing) expectional digital experiences.👨‍💻</p>
@@ -24,7 +24,7 @@
           </div>
           <div>
             <img
-              src='../assets/SG.jpg'
+              src='../assets/zikam-boi.jpg'
               alt="my profile"
               class="h-60 md:h-80"
             /> 
